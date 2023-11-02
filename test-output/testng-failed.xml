@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="D:/Automation Work/SeleniumAutomationTesting(failed)">
+    <classes>
+      <class name="SiteName.TestCases.PaymentTest">
+        <methods>
+          <include name="browserSetup"/>
+          <include name="paymentShouldSuccess"/>
+        </methods>
+      </class> <!-- SiteName.TestCases.PaymentTest -->
+      <class name="SiteName.TestCases.VisaRecommendationTest">
+        <methods>
+          <include name="browserSetup"/>
+          <include name="visaRecommendationShouldSuccess"/>
+        </methods>
+      </class> <!-- SiteName.TestCases.VisaRecommendationTest -->
+      <class name="SiteName.TestCases.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="browserSetup"/>
+          <include name="loginShouldSuccess"/>
+        </methods>
+      </class> <!-- SiteName.TestCases.LoginTest -->
+    </classes>
+  </test> <!-- D:/Automation Work/SeleniumAutomationTesting(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
